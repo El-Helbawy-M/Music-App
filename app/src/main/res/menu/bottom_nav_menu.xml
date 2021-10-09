@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/home_foreground"
+        android:title="Home"
+        app:showAsAction="always|ifRoom"
+    />
+    <item
+        android:id="@+id/Favourite"
+        android:icon="@drawable/favourite_foreground"
+        android:title="Favourite"
+        app:showAsAction="always|ifRoom"
+
+        />
+    <item
+        android:id="@+id/Person"
+        android:icon="@drawable/person_foreground"
+        android:title="Person"
+        app:showAsAction="always|ifRoom"
+        />
+
+</menu>
